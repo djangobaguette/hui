@@ -1,0 +1,22 @@
+{
+    "name": "brezgalov/api-wrapper",
+    "description": "Api client base classes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brezgalov",
+            "email": "oleg.brezgalov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brezgalov\\ApiWrapper\\": "src/",
+            "Brezgalov\\ApiWrapper\\Decorators\\": "src/decorators"
+        }
+    }
+}

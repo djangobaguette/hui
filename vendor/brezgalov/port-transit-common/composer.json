@@ -1,0 +1,26 @@
+{
+    "name": "brezgalov/port-transit-common",
+    "description": "port transit common utils",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brezgalov",
+            "email": "oleg.brezgalov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "brezgalov/kladr-api-client": "^1.0.1",
+        "brezgalov/gmaps-api-client": "^1.0.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brezgalov\\PortTransitCommon\\": "src/",
+            "Brezgalov\\PortTransitCommon\\Utils\\": "src/utils",
+            "Brezgalov\\PortTransitCommon\\Models\\": "src/models",
+            "Brezgalov\\PortTransitCommon\\Models\\Traits\\": "src/models/traits"
+        }
+    }
+}

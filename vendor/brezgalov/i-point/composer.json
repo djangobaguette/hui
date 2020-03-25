@@ -1,0 +1,21 @@
+{
+    "name": "brezgalov/i-point",
+    "description": "geo point interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brezgalov",
+            "email": "oleg.brezgalov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brezgalov\\IPoint\\": "src/",
+            "Brezgalov\\IPoint\\Traits\\": "src/traits"
+        }
+    }
+}

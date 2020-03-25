@@ -1,0 +1,24 @@
+{
+    "name": "brezgalov/kladr-api-client",
+    "description": "Api client for kladr api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brezgalov",
+            "email": "oleg.brezgalov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "brezgalov/api-wrapper": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brezgalov\\KladrApiClient\\": "src/"
+        }
+    },
+    "require-dev": {
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5fd960ea67b0d8df6ec0a4184bed23f2",
+    "packages": [
+        {
+            "name": "brezgalov/api-wrapper",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Brezgalov/api-wrapper.git",
+                "reference": "2156c505303378f45cfa5df7b06f7beb60dca8cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Brezgalov/api-wrapper/zipball/2156c505303378f45cfa5df7b06f7beb60dca8cc",
+                "reference": "2156c505303378f45cfa5df7b06f7beb60dca8cc",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brezgalov\\ApiWrapper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oleg Brezgalov",
+                    "email": "oleg.brezgalov@gmail.com"
+                }
+            ],
+            "description": "Api client base classes",
+            "time": "2019-03-22T14:09:18+00:00"
+        },
+        {
+            "name": "brezgalov/gmaps-api-client",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Brezgalov/gmaps-api-client.git",
+                "reference": "b2b664fe30cb0cc4060453b6ffd6c070080c477f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Brezgalov/gmaps-api-client/zipball/b2b664fe30cb0cc4060453b6ffd6c070080c477f",
+                "reference": "b2b664fe30cb0cc4060453b6ffd6c070080c477f",
+                "shasum": ""
+            },
+            "require": {
+                "brezgalov/api-wrapper": "^1.0.2",
+                "brezgalov/i-point": "^1.0.2",
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brezgalov\\GmapsApiClient\\": "src/",
+                    "Brezgalov\\GmapsApiClient\\Decorators\\": "src/decorators"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oleg Brezgalov",
+                    "email": "oleg.brezgalov@gmail.com"
+                }
+            ],
+            "description": "Google maps api client",
+            "time": "2019-04-04T07:42:35+00:00"
+        },
+        {
+            "name": "brezgalov/i-point",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Brezgalov/i-point.git",
+                "reference": "7151195a0855b4df69f40017f4152d3e8e7d2227"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Brezgalov/i-point/zipball/7151195a0855b4df69f40017f4152d3e8e7d2227",
+                "reference": "7151195a0855b4df69f40017f4152d3e8e7d2227",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brezgalov\\IPoint\\": "src/",
+                    "Brezgalov\\IPoint\\Traits\\": "src/traits"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oleg Brezgalov",
+                    "email": "oleg.brezgalov@gmail.com"
+                }
+            ],
+            "description": "geo point interface",
+            "time": "2019-04-04T07:39:58+00:00"
+        },
+        {
+            "name": "brezgalov/kladr-api-client",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Brezgalov/kladr-api-client.git",
+                "reference": "b8bda7e27cbbae2fb87698654042814dee0940ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Brezgalov/kladr-api-client/zipball/b8bda7e27cbbae2fb87698654042814dee0940ba",
+                "reference": "b8bda7e27cbbae2fb87698654042814dee0940ba",
+                "shasum": ""
+            },
+            "require": {
+                "brezgalov/api-wrapper": "^1.0.1",
+                "ext-curl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brezgalov\\KladrApiClient\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oleg Brezgalov",
+                    "email": "oleg.brezgalov@gmail.com"
+                }
+            ],
+            "description": "Api client for kladr api",
+            "time": "2019-03-22T11:31:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": []
+}
