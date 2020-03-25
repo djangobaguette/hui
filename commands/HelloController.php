@@ -28,7 +28,7 @@ class HelloController extends Controller
      */
     public function actionIndex($message = 'hello world')
     {
-       
+       // test comment
 
         var_dump(StopPointsSearch::getDistnceGroupIdColumnExpression());        
 
